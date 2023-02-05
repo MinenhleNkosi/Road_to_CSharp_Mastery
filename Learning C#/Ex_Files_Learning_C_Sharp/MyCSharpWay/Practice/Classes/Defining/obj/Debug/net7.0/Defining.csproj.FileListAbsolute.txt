@@ -1,0 +1,15 @@
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\bin\Debug\net7.0\Defining.exe
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\bin\Debug\net7.0\Defining.deps.json
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\bin\Debug\net7.0\Defining.runtimeconfig.json
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\bin\Debug\net7.0\Defining.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\bin\Debug\net7.0\Defining.pdb
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\obj\Debug\net7.0\Defining.csproj.AssemblyReference.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\obj\Debug\net7.0\Defining.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\obj\Debug\net7.0\Defining.AssemblyInfoInputs.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\obj\Debug\net7.0\Defining.AssemblyInfo.cs
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\obj\Debug\net7.0\Defining.csproj.CoreCompileInputs.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\obj\Debug\net7.0\Defining.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\obj\Debug\net7.0\refint\Defining.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\obj\Debug\net7.0\Defining.pdb
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\obj\Debug\net7.0\Defining.genruntimeconfig.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Classes\Defining\obj\Debug\net7.0\ref\Defining.dll

@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic; // Needed for List
+using System.Linq; // Needed for Skip, Max, Min and Sum
+
+using System.IO; // Needed for File
+using com.hr; // Needed for Employee
+
+namespace listlinq
+{
+    class Task3
+    {
+        static void Main(string[] args)
+        {
+            
+
+            List<Employee> empls = File.ReadAllLines("data.csv")
+                                  .Skip(1)
+                                  .Select(line => Employee.CsvToEmp(line))
+                                  .ToList();
+            
+
+            string printable = string.Join("\n", empls);
+
+            Console.WriteLine(printable);
+            //Task 3: Console.WriteLine("Largest Salary: " + empls.Max());  
+            // returns the largest salaried employee
+            
+            Console.WriteLine("Number of employees: " + empls.Count());
+            Console.WriteLine("Smallest Salary: " + empls.Min());  
+            Console.WriteLine("Largest Salary: " + empls.Max());
+            Console.WriteLine("Average Salary: " + empls.Average(emp => emp.Salary)); 
+
+            // returns the smallest salaried employee
+            // for each employee, sum the salary field into a total sum.
+            decimal totalSalary = empls.Sum(emp => emp.Salary);
+
+            Console.WriteLine("The total sum of salaries is: {0}", totalSalary);
+            Console.WriteLine("Average salary of all employees: " + totalSalary/empls.Count());
+            // end task 3
+        }
+    }
+}

@@ -1,0 +1,15 @@
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\bin\Debug\net7.0\Interpolation.exe
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\bin\Debug\net7.0\Interpolation.deps.json
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\bin\Debug\net7.0\Interpolation.runtimeconfig.json
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\bin\Debug\net7.0\Interpolation.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\bin\Debug\net7.0\Interpolation.pdb
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\obj\Debug\net7.0\Interpolation.csproj.AssemblyReference.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\obj\Debug\net7.0\Interpolation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\obj\Debug\net7.0\Interpolation.AssemblyInfoInputs.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\obj\Debug\net7.0\Interpolation.AssemblyInfo.cs
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\obj\Debug\net7.0\Interpolation.csproj.CoreCompileInputs.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\obj\Debug\net7.0\Interpolation.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\obj\Debug\net7.0\refint\Interpolation.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\obj\Debug\net7.0\Interpolation.pdb
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\obj\Debug\net7.0\Interpolation.genruntimeconfig.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Strings\Interpolation\obj\Debug\net7.0\ref\Interpolation.dll

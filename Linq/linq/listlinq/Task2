@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic; // Needed for List
+using System.Linq; // Needed for Skip, Max, Min and Sum
+
+using System.IO; // Needed for File
+using com.hr; // Needed for Employee
+
+namespace listlinq
+{
+    class Task2
+    {
+        static void Main(string[] args)
+        {
+            
+
+            List<Employee> empls = File.ReadAllLines("data.csv")
+                                  .Skip(1)
+                                  .Select(line => Employee.CsvToEmp(line))
+                                  .ToList();
+            
+            
+            IEnumerable<Employee> query = empls.Where(emp => emp.Salary >  100000 
+                                          && emp.Salary < 150000);
+            string printable = string.Join("\n", empls);
+            //Console.WriteLine(printable);
+
+            foreach (Employee emp in query) {
+                Console.WriteLine(emp);
+            }
+            Console.WriteLine("Number of employees: " + empls.Count());
+            Console.WriteLine("Number of employees with Salary greater than 100000 and Less than 150000: " + query.Count());
+        }
+    }
+}

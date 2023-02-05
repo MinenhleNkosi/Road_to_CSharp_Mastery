@@ -1,0 +1,22 @@
+/Users/dave/listlinq/bin/Debug/netcoreapp2.0/listlinq.deps.json
+/Users/dave/listlinq/bin/Debug/netcoreapp2.0/listlinq.runtimeconfig.json
+/Users/dave/listlinq/bin/Debug/netcoreapp2.0/listlinq.runtimeconfig.dev.json
+/Users/dave/listlinq/bin/Debug/netcoreapp2.0/listlinq.dll
+/Users/dave/listlinq/bin/Debug/netcoreapp2.0/listlinq.pdb
+/Users/dave/listlinq/obj/Debug/netcoreapp2.0/listlinq.csproj.CoreCompileInputs.cache
+/Users/dave/listlinq/obj/Debug/netcoreapp2.0/listlinq.AssemblyInfoInputs.cache
+/Users/dave/listlinq/obj/Debug/netcoreapp2.0/listlinq.AssemblyInfo.cs
+/Users/dave/listlinq/obj/Debug/netcoreapp2.0/listlinq.dll
+/Users/dave/listlinq/obj/Debug/netcoreapp2.0/listlinq.pdb
+/Users/dave/OneDrive - fjordhorse associates, llc/Documents/Coursera/A2022Q1/C# Linq/listlinq/bin/Debug/netcoreapp2.0/listlinq.deps.json
+/Users/dave/OneDrive - fjordhorse associates, llc/Documents/Coursera/A2022Q1/C# Linq/listlinq/bin/Debug/netcoreapp2.0/listlinq.runtimeconfig.json
+/Users/dave/OneDrive - fjordhorse associates, llc/Documents/Coursera/A2022Q1/C# Linq/listlinq/bin/Debug/netcoreapp2.0/listlinq.runtimeconfig.dev.json
+/Users/dave/OneDrive - fjordhorse associates, llc/Documents/Coursera/A2022Q1/C# Linq/listlinq/bin/Debug/netcoreapp2.0/listlinq.dll
+/Users/dave/OneDrive - fjordhorse associates, llc/Documents/Coursera/A2022Q1/C# Linq/listlinq/bin/Debug/netcoreapp2.0/listlinq.pdb
+/Users/dave/OneDrive - fjordhorse associates, llc/Documents/Coursera/A2022Q1/C# Linq/listlinq/obj/Debug/netcoreapp2.0/listlinq.csprojAssemblyReference.cache
+/Users/dave/OneDrive - fjordhorse associates, llc/Documents/Coursera/A2022Q1/C# Linq/listlinq/obj/Debug/netcoreapp2.0/listlinq.AssemblyInfoInputs.cache
+/Users/dave/OneDrive - fjordhorse associates, llc/Documents/Coursera/A2022Q1/C# Linq/listlinq/obj/Debug/netcoreapp2.0/listlinq.AssemblyInfo.cs
+/Users/dave/OneDrive - fjordhorse associates, llc/Documents/Coursera/A2022Q1/C# Linq/listlinq/obj/Debug/netcoreapp2.0/listlinq.csproj.CoreCompileInputs.cache
+/Users/dave/OneDrive - fjordhorse associates, llc/Documents/Coursera/A2022Q1/C# Linq/listlinq/obj/Debug/netcoreapp2.0/listlinq.dll
+/Users/dave/OneDrive - fjordhorse associates, llc/Documents/Coursera/A2022Q1/C# Linq/listlinq/obj/Debug/netcoreapp2.0/listlinq.pdb
+/Users/dave/OneDrive - fjordhorse associates, llc/Documents/Coursera/A2022Q1/C# Linq/listlinq/obj/Debug/netcoreapp2.0/listlinq.genruntimeconfig.cache

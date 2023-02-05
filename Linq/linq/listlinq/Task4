@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic; // Needed for List
+using System.Linq; // Needed for Skip, Max, Min and Sum
+
+using System.IO; // Needed for File
+using com.hr; // Needed for Employee
+
+namespace listlinq
+{
+    class Task4
+    {
+        static void Main(string[] args)
+        {
+            
+
+            List<Employee> empls = File.ReadAllLines("data.csv")
+                                  .Skip(1)
+                                  .Select(line => Employee.CsvToEmp(line))
+                                  .ToList();
+            
+// 1. Default Sort, using the Employee Object CompareTo
+          empls.Sort();
+          
+// 2. Reverse to create the Descending Order...
+          empls.Reverse();
+          string printable = string.Join("\n", empls);
+          //Console.WriteLine(printable);
+
+ // 3. Ascending Sort, by provided Last Name           
+          IEnumerable<Employee> query =
+              from emp in empls
+                       orderby emp.Lastname
+                       select emp;
+
+// 4. Descending Sort, Last Name           
+            query =
+              from emp in empls
+                       orderby emp.Lastname descending
+                       select emp;
+             printable = string.Join("\n", query);
+             
+            
+// 4. Secondary Sort, Last Name , First Name         
+            query =
+              from emp in empls
+                       orderby emp.Lastname, emp.Firstname descending
+                       select emp;
+             printable = string.Join("\n", query);
+             Console.WriteLine(printable);
+            
+        }
+    }
+}

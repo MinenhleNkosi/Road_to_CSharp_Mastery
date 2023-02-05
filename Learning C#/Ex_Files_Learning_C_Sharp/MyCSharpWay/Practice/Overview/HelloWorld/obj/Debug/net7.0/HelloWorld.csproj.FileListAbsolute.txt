@@ -1,0 +1,15 @@
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\bin\Debug\net7.0\HelloWorld.exe
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\bin\Debug\net7.0\HelloWorld.deps.json
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\bin\Debug\net7.0\HelloWorld.runtimeconfig.json
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\bin\Debug\net7.0\HelloWorld.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\bin\Debug\net7.0\HelloWorld.pdb
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\obj\Debug\net7.0\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\obj\Debug\net7.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfo.cs
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\obj\Debug\net7.0\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\obj\Debug\net7.0\HelloWorld.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\obj\Debug\net7.0\refint\HelloWorld.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\obj\Debug\net7.0\HelloWorld.pdb
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\obj\Debug\net7.0\HelloWorld.genruntimeconfig.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\HelloWorld\obj\Debug\net7.0\ref\HelloWorld.dll

@@ -1,0 +1,15 @@
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\bin\Debug\net7.0\VarsAndData.exe
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\bin\Debug\net7.0\VarsAndData.deps.json
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\bin\Debug\net7.0\VarsAndData.runtimeconfig.json
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\bin\Debug\net7.0\VarsAndData.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\bin\Debug\net7.0\VarsAndData.pdb
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.csproj.AssemblyReference.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.AssemblyInfoInputs.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.AssemblyInfo.cs
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.csproj.CoreCompileInputs.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\obj\Debug\net7.0\refint\VarsAndData.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.pdb
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.genruntimeconfig.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Overview\VarsAndData\obj\Debug\net7.0\ref\VarsAndData.dll

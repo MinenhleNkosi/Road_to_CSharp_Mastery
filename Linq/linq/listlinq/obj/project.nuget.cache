@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "f/SkOpGKn0/lNqscPblmsLu/Q30aQXZwdF9Ti6bySEx7JVn3pr07EbSW/WxWAdSt73zgcFDsOFgWyDB6sm08tw==",
+  "success": true,
+  "projectFilePath": "/Users/dave/OneDrive - fjordhorse associates, llc/Documents/Coursera/A2022Q1/C# Linq/listlinq/listlinq.csproj",
+  "expectedPackageFiles": [
+    "/Users/dave/.nuget/packages/microsoft.netcore.app/2.0.0/microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "/Users/dave/.nuget/packages/microsoft.netcore.dotnetapphost/2.0.0/microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "/Users/dave/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.0.0/microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "/Users/dave/.nuget/packages/microsoft.netcore.dotnethostresolver/2.0.0/microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "/Users/dave/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "/Users/dave/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

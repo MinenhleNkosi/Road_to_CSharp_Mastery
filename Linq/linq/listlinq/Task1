@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic; // Needed for List
+using System.Linq; // Needed for Skip, Max, Min and Sum
+
+using System.IO; // Needed for File
+using com.hr; // Needed for Employee
+
+namespace listlinq
+{
+    class Task1
+    {
+        static void Main(string[] args)
+        {
+            
+
+            List<Employee> empls = File.ReadAllLines("data.csv")
+                                  .Skip(1)
+                                  .Select(line => Employee.CsvToEmp(line))
+                                  .ToList();
+            
+
+
+            string printable = string.Join("\n", empls);
+
+            Console.WriteLine(printable);
+        }
+    }
+}

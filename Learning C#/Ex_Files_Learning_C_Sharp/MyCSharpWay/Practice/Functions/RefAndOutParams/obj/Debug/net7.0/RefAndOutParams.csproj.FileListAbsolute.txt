@@ -1,0 +1,15 @@
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\bin\Debug\net7.0\RefAndOutParams.exe
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\bin\Debug\net7.0\RefAndOutParams.deps.json
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\bin\Debug\net7.0\RefAndOutParams.runtimeconfig.json
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\bin\Debug\net7.0\RefAndOutParams.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\bin\Debug\net7.0\RefAndOutParams.pdb
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\obj\Debug\net7.0\RefAndOutParams.csproj.AssemblyReference.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\obj\Debug\net7.0\RefAndOutParams.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\obj\Debug\net7.0\RefAndOutParams.AssemblyInfoInputs.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\obj\Debug\net7.0\RefAndOutParams.AssemblyInfo.cs
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\obj\Debug\net7.0\RefAndOutParams.csproj.CoreCompileInputs.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\obj\Debug\net7.0\RefAndOutParams.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\obj\Debug\net7.0\refint\RefAndOutParams.dll
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\obj\Debug\net7.0\RefAndOutParams.pdb
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\obj\Debug\net7.0\RefAndOutParams.genruntimeconfig.cache
+C:\Users\Minenhle\Music\Projects\Learning C#\Ex_Files_Learning_C_Sharp\MyCSharpWay\Practice\Functions\RefAndOutParams\obj\Debug\net7.0\ref\RefAndOutParams.dll
