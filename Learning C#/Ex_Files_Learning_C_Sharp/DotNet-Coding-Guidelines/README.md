@@ -7,7 +7,7 @@ Just keep in mind that this post isn't about how you should indent your code, bu
 Also, feel free to add your own tips through pull requests.
 
 ### Try to avoid boxing like in the following:
-```
+```cs
 int x = 32;
 object o = x;
 ```
@@ -15,7 +15,7 @@ Boxing is the process of wrapping a value type such as a primitive or struct ins
 
 👍 Map to matching primitive or struct variable instead:
 
-```
+```cs
 int x = 32;
 int y = x;
 ```
@@ -23,7 +23,7 @@ int y = x;
 
 ### Try to avoid the traditional if-else statements like in the following:
 
-```
+```cs
 int statusCode;
 if (condition)
 {
@@ -37,7 +37,7 @@ else
 
 👍 Do use ternary conditional operator (?:) instead:
 
-```
+```cs
 int statusCode = condition ? 1 : 2;
 ```
 
@@ -45,7 +45,7 @@ The preceding code is much cleaner, easier to read and understand. On top of tha
 
 ### Try to avoid nested Ternary operators:
 
-```
+```cs
 public string GetJobStatus(Job job)
 {
   return job.IsRunning ? "Running" : job.HasErrors ? "Failed" : "Succeeded";
@@ -54,7 +54,7 @@ public string GetJobStatus(Job job)
 
 👍 Use another line to express the nested operation as a separate statement for readability:
 
-```
+```cs
 if (job.IsRunning)
   {
     return "Running";
@@ -66,7 +66,7 @@ Nesting ternary operators results in the kind of code that may seem clear as day
 
 ### Try to avoid using if statement for null checks like in the following:
 
-```
+```cs
 if (something != null)
 {
     if (something.Other != null)
@@ -78,7 +78,7 @@ if (something != null)
 
 👍 Do use null conditional (?.) operator instead:
 
-```
+```cs
 return something?.Other?.Whatever;
 ```
 
@@ -86,7 +86,7 @@ The preceding code is also much cleaner and concise.
 
 ### Try to avoid complex if-else statements for null checks like in the following:
 
-```
+```cs
 if (something != null)
 {
     if (something.other != null)
@@ -106,32 +106,32 @@ else
 
 👍 Do use null coalescing (??) operator instead:
 
-```
+```cs
 return something?.other?.whatever ?? string.empty;
 ```
 
 ### Try to avoid using the following code when returning a default value when an object is null:
 
-```
+```cs
 int? number = null;
 var n = number.HasValue ? number : 0;
 ```
 
 👍 Do use null coalescing (??) operator as well:
 
-```
+```cs
 var n = number ?? 0;
 ```
 
 👍 or alternatively, you could do:
 
-```
+```cs
 var n = number.GetValueOrDefault();
 ```
 
 ### Try to avoid using the equality operator (==) or HasValue for nullable variable check like in the following:
 
-```
+```cs
 int? number = null;
 
 if (number == null)
@@ -147,7 +147,7 @@ if (!number.HasValue)
 
 👍 While the preceding code is fine, we can still improve that by using the is keyword like in the following:
 
-```
+```cs
 int? number = null;
 
 if (number is null)
@@ -158,7 +158,7 @@ if (number is null)
 
 ### Avoid code without braces ({}) for single conditional if statement, for and foreach loops like in the following:
 
-```
+```cs
 if (condition) action;
 ```
 
@@ -166,7 +166,7 @@ Without the braces, it is too easy to accidentally add a second line thinking it
 
 👍 Always use braces instead:
 
-```
+```cs
 if (condition) { action; }
 
 //or better
@@ -178,7 +178,7 @@ if (condition)
 
 ###  Try to avoid using multiple if-else statements like in the following:
 
-```
+```cs
 if (condition)
 {
    //do something
@@ -199,7 +199,7 @@ else (condition)
 
 👍 Do use switch statements instead:
 
-```
+```cs
 switch (condition)
 {
    case 1:
@@ -218,7 +218,7 @@ switch (condition)
 ```
 👍 But prefer switch expressions over switch statements where possible like in the following:
 
-```
+```cs
 condition switch
 {
     1 => //do something;
@@ -232,7 +232,7 @@ The preceding code is more concise yet, still easy to read and understand. (Note
 
 ### Do use the using statement when working with objects that eat resources or implements IDisposable interface:
 
-```
+```cs
 using (MemoryStream stream = new MemoryStream())
 {
     // do something
@@ -241,7 +241,7 @@ using (MemoryStream stream = new MemoryStream())
 
 👍 Or prefer to use the new using declaration introduced in C# 8 like in the following:
 
-```
+```cs
 using var stream = new MemoryStream();
 // do something
 ```
@@ -250,7 +250,7 @@ The preceding code reduces the number of curly braces in your method, but it can
 
 ⚠ Do not use either of the above if the IDisposable is the return value of your method:
 
-```
+```cs
 Stream GetABrokenFileStream()
 {
     // this is wrong! The stream will be disposed when you exit the method
@@ -261,21 +261,21 @@ Stream GetABrokenFileStream()
 
 ### Avoid concatenating strings with the + sign/symbol like in the following:
 
-```
+```cs
 string space = "Vianne";
 string greetings = "Hello " + name + "!";
 ```
 
 👍 Use string.Format() method instead:
 
-```
+```cs
 string name = "Vynn";
 string greetings = string.Format("Hello {0}!", name);
 ```
 
 👍 Or prefer using string interpolation ($) instead where possible:
 
-```
+```cs
 string name = "Vjor";
 string greeting = $"Hello, {name}!;
 ```
@@ -284,14 +284,14 @@ The preceding code is much more concise and readable compared to other approache
 
 ### Try to avoid string.Format() when formatting simple objects like in the following:
 
-```
+```cs
 var date = DateTime.Now;
 string greetings = string.Format("Today is {0}, the time is {1:HH:mm} now.", date.DayOfWeek, date);
 ```
 
 👍 Use string interpolation instead:
 
-```
+```cs
 var date = DateTime.Now;
 string greetings = $"Today is {date.DayOfWeek}, the time is {date:HH:mm} now.");
 ```
@@ -300,19 +300,19 @@ The preceding code is much easier to understand and concise. However, there are 
 
 ### Avoid using specific type for complex objects when defining variables like in the following:
 
-```
+```cs
 List<Repository.DataAccessLayer.Whatever> listOfBlah = _repo.DataAccessLayer.GetWhatever();
 ```
 
 👍 Use the var keyword instead:
 
-```
+```cs
 var listOfBlah = _repo.DataAccessLayer.GetWhatever();
 ```
 
 👍 Same goes for other local variables:
 
-```
+```cs
 var students = new List<Students>();
 var memoryStream = new MemoryStream();
 var dateUntilProgramExpiry = DateTime.Now;
@@ -320,7 +320,7 @@ var dateUntilProgramExpiry = DateTime.Now;
 
 ### Try to avoid one-liner method implementation with curly braces like in the following:
 
-```
+```cs
 public string Greeter(string name)
 {
     return $"Hello {name}!";
@@ -329,7 +329,7 @@ public string Greeter(string name)
 
 👍 Do use Expression-bodied (=>) implementation instead:
 
-```
+```cs
 public string Greeter(string name) => $"Hello {name}!";
 ```
 
@@ -337,7 +337,7 @@ The preceding code is more concise while maintaining readability.
 
 ### Avoid object initialization like in the following:
 
-```
+```cs
 Person person = new Person();
 person.FirstName = "Vianne";
 person.LastName = "Durano";
@@ -345,7 +345,7 @@ person.LastName = "Durano";
 
 👍 Do use object and collection initializers instead:
 
-```
+```cs
 var person = new Person
 {
     FirstName = "Vianne",
@@ -357,7 +357,7 @@ The preceding code is more natural to read and the intent is clear because the p
 
 ### Avoid creating a class just to return two simple result sets like in the following:
 
-```
+```cs
 public Person GetName()
 {
     var person = new Person
@@ -372,7 +372,7 @@ public Person GetName()
 
 👍 Do use Tuples instead where possible:
 
-```
+```cs
 public (string FirstName, string LastName) GetName()
 {
     return ("Vincent", "Durano");
@@ -383,7 +383,7 @@ The preceding code is more convenient for accessing objects and manipulating the
 
 ### Try to create an Extention Methods to perform common tasks such as conversion, validation, formatting, parsing, transformation, you name it. So, instead of doing the following:
 
-```
+```cs
 string dateString = "40/1001/2021";
 var isDateValid = DateTime.TryParse(dateString, out var date);
 ```
@@ -392,7 +392,7 @@ The preceding code is perfectly fine and should handle the conversion safely. Ho
 
 👍 To prevent that, you should consider creating a helper/utility functions to do common tasks that can be reused across projects. For example, the preceding code can now be converted to following extension:
 
-```
+```cs
 public static class DateExtensions
 {
      public static DateTime ToDateTime(this string value)
@@ -402,7 +402,7 @@ public static class DateExtensions
 
 and you will be able to use the extension method like in the following anywhere in your code:
 
-```
+```cs
 var date = "40/1001/2021".ToDateTime();
 ```
 
@@ -414,7 +414,7 @@ In situations where you want to expose one of the fields to be public, you can d
 
 ### Avoid using .NET predefined data types such as Int32, String, Boolean, etc.:
 
-```
+```cs
 String firstName;
 Int32 orderCount;
 Boolean isCompleted;
@@ -422,7 +422,7 @@ Boolean isCompleted;
 
 👍 Do use built-in primitive data types instead:
 
-```
+```cs
 string firstName;
 int orderCount;
 bool isCompleted;
@@ -432,19 +432,19 @@ The preceding code is consistent with the Microsoft’s .NET Framework and more 
 
 ### Do not use initials as identifier abbreviations like in the following:
 
-```
+```cs
 private readonly PersonManager _pm;
 ```
 
 The main reason for this is that it can cause confusion and inconsistency when you have class that might represents the same thing like in the following:
 
-```
+```cs
 private readonly ProductManager _pm;
 ```
 
 👍 Instead, do choose clarity ver brevity like in the following:
 
-```
+```cs
 private readonly PersonManager _personManager;
 private readonly ProductManager _productManager;
 ```
@@ -453,7 +453,7 @@ The preceding code provides more clarity as it clearly suggests what the object 
 
 ### Do organize namespaces with a clearly defined structure. Take a look at the following example:
 
-```
+```cs
 namespace ProjectName.App.Web
 namespace ProjectName.Services.Common
 namespace ProjectName.Services.Api.Payment
@@ -465,7 +465,7 @@ Generally namespaces should reflect the folder hierarchy within a project. The p
 
 ### Do use singular form, noun or noun phrases to name a class:
 
-```
+```cs
 public class Person
 {
     //some code
@@ -486,7 +486,7 @@ This enables you to easily determine if an object holds a single item value or c
 
 ### Do use nouns or adjective phrases for Property names as well. When naming boolean properties or variables, you may add the prefix "can", "is", "has", etc. just like in the following:
 
-```
+```cs
 public bool IsActive { get; set; }
 public bool CanDelete { get; set; }
 
@@ -499,7 +499,7 @@ Adding those suffixes will provide more value to the caller.
 
 ### Do use Pascal Casing for Class, Method, Property and Constant variable names:
 
-```
+```cs
 public class ClassName
 {
     const int MaxPageSize = 100;
@@ -517,7 +517,7 @@ This is so that our code is consistent with the Microsoft .NET Framework.
 
 ### Do use Camel Casing for method arguments and local variables:
 
-```
+```cs
 public void MethodName(CreatePersonRequestDto requestDto)
 {
        var firstName = requestDto.FirstName;
@@ -528,7 +528,7 @@ This is so that our code are consistent with the Microsoft .NET Framework.
 
 ### Do use meaningful and self-explanatory names for classes, methods and properties:
 
-```
+```cs
 int daysUntilProgramExpiry;
 
 public Person GetPersonProfileById(long personId)
@@ -541,7 +541,7 @@ This makes your code easier to read and understand without having you to write (
 
 ### Do suffix asynchronous methods with the Async word:
 
-```
+```cs
 public async Task<List<Person>> GetPersonProfileByIdAsync(long personId)
 {
      //do something
@@ -552,7 +552,7 @@ This enable developers to easily identify synchronous vs asynchronous methods by
 
 ### Do prefix interfaces with the capital letter I
 
-```
+```cs
 public interface IPersonManager
 {
    //...
@@ -563,7 +563,7 @@ This is to easily distinguish between an interface and classes. In fact, it's a 
 
 ### Do prefix global variables and class fields with underscores (\_):
 
-```
+```cs
 private readonly ILogger<ClassName> _logger;
 private long _rowsAffected;
 private IEnumerable<Persons> _people;
@@ -573,7 +573,7 @@ This is to easily differentiate between local and global identifiers/variables.
 
 ### Do declare all member variables and fields at the top of a class, with static fields at the very top:
 
-```
+```cs
 private static string _externalIdType;
 private readonly ILogger<PersonManager> _logger;
 private int _age;
@@ -583,7 +583,7 @@ This is just a generally accepted practice that prevents the need to hunt for va
 
 ### Do consider putting all your private methods at the bottom after public methods:
 
-```
+```cs
 public class SomeClass
 {
     public void SomePublicMethodA()
@@ -607,7 +607,7 @@ public class SomeClass
 
 ### Try to avoid grouping your code into regions like in the following:
 
-```
+```cs
 #region Private Members
     private void SomePrivateMethodA()
     {
@@ -628,7 +628,7 @@ If you have tons of private methods within a class, you could split them into a 
 
 ### Try to use short-hand names only when they’re generally known:
 
-```
+```cs
 private readonly CreateQuestionDefinitionRequestDto _requestDto;
 ```
 
@@ -636,7 +636,7 @@ It would be too much to name a variable "createQuestionDefinitionRequestDto" whe
 
 ### Avoid underscores (\_) in between identifier names:
 
-```
+```cs
 public PersonManager person_Manager;
 private long rows_Affected;
 private DateTime row_updated_date_time;
@@ -646,7 +646,7 @@ The reason being is that C# isn't postgres. Seriously, it's to be consistent wit
 
 ### Do not use SCREAMING CAPS for constants or read-only variables:
 
-```
+```cs
 public static const string EXTERNALIDTYPE = "ABC";
 public static const string ENVIRONMENT_VARIABLE_NAME = "TEST";
 ```
@@ -655,7 +655,7 @@ They just grab too much attention.
 
 ### Do not use Hungarian notation or any other type identification in identifiers (except interfaces):
 
-```
+```cs
 int iCounter;
 string strName;
 string spCreateUsers;
@@ -668,7 +668,7 @@ Visual Studio code editor already provides helpful tooltips to determine object 
 
 The following is an example for defining an enum:
 
-```
+```cs
 public enum BeerType
 {
   Lager,
@@ -683,7 +683,7 @@ Again, this is to be consistent with the Microsoft .NET framework and avoids typ
 
 ### Try to use record types for immutable objects. Record types is a new feature introduced in C# 9 where it simplfies your code. For example, the following code:
 
-```
+```cs
 public class Person
 {
     public string FirstName { get; init; }
@@ -699,7 +699,7 @@ public class Person
 
 can be written in the following way using record:
 
-```
+```cs
 public record Person(string FirstName, string LastName);
 ```
 
@@ -708,7 +708,7 @@ Using record types will automatically generates the boilerplate code for you and
 ### Use Attributes on local functions
 before c# 9.0 we used C# compiler directive on local functions
 
-```
+```cs
 static void Main(string[] args)
         {
             static void DoAction()
@@ -725,7 +725,7 @@ static void Main(string[] args)
 ```
 in c# 9.0 can be written in the following way using Attributes on local functions:
 
-```
+```cs
 static void Main(string[] args)
         {
             [Conditional("DEBUG")]
@@ -741,12 +741,12 @@ static void Main(string[] args)
 ```
 
 ### Arrange your code before commits
-```
+```cs
 Visual Studio shortcut : CRTL+K+D
 ```
 
 ### Use local function for conditions
-```
+```cs
 if (RequestIsValid(request.Id))
 {
 
@@ -759,7 +759,7 @@ bool RequestIsValid(int id)
 ```
 
 ### Always remove unnecessary usings and sort them
-```
+```cs
 Visual Studio shortcut : CRTL+R+G
 ```
 
