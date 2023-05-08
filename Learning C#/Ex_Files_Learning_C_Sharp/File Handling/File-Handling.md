@@ -73,22 +73,22 @@ The FileMode specifies how the operating system should open a file. If you go to
 ![pic](https://dotnettutorials.net/wp-content/uploads/2022/05/word-image-87.png)
 
 It has the following six constant values:
-	1. **CreateNew:** It specifies that the operating system should create a new file. This requires a System.Security.Permissions.FileIOPermissionAccess.Write permission. If the file already exists, a System.IO.IOException exception is thrown.
-	2. **Create:** It specifies that the operating system should create a new file like the CreateNew constant. But in this case, if the file already exists, it will be overwritten instead of throwing an Exception. This also requires System.Security.Permissions.FileIOPermissionAccess.Write permission. So, FileMode.Create is equivalent to requesting that if the file does not exist, use System.IO.FileMode.CreateNew; otherwise, use System.IO.FileMode.Truncate. If the file already exists but is a hidden file, then an UnauthorizedAccessException Exception is going to be thrown.
-	3. **Open:** It specifies that the operating system should open an existing file. The ability to open the file is dependent on the value specified by the System.IO.FileAccess Enumeration. A System.IO.FileNotFoundException exception is thrown if the file does not exist.
-	4. **OpenOrCreate:** It specifies that the operating system should open a file if it exists; otherwise, a new file should be created. If the file is opened with FileAccess.Read, System.Security.Permissions.FileIOPermissionAccess.Read permission is required. If the file access is FileAccess.Write, System.Security.Permissions.FileIOPermissionAccess.Write permission is required. If the file is opened with FileAccess.ReadWrite, both Systems.Security.Permissions.FileIOPermissionAccess.Read and System.Security.Permissions.FileIOPermissionAccess.Write permissions are required.
-	5. **Truncate:** It specifies that the operating system should open an existing file. When the file is opened, it should be truncated so that its size is zero bytes. This requires a System.Security.Permissions.FileIOPermissionAccess.Write permission. Attempts to read from a file opened with FileMode.Truncate causes a System.ArgumentException exception.
-	6. **Append:** It opens the file if it exists and then adds the content at the end of the file, or creates a new file. This requires a System.Security.Permissions.FileIOPermissionAccess.Append permission. FileMode.Append can be used only in conjunction with FileAccess.Write. Trying to seek a position before the end of the file throws a System.IO.IOException exception, and any attempt to read fails and throws a System.NotSupportedException exception.
+1. **CreateNew:** It specifies that the operating system should create a new file. This requires a System.Security.Permissions.FileIOPermissionAccess.Write permission. If the file already exists, a System.IO.IOException exception is thrown.
+2. **Create:** It specifies that the operating system should create a new file like the CreateNew constant. But in this case, if the file already exists, it will be overwritten instead of throwing an Exception. This also requires System.Security.Permissions.FileIOPermissionAccess.Write permission. So, FileMode.Create is equivalent to requesting that if the file does not exist, use System.IO.FileMode.CreateNew; otherwise, use System.IO.FileMode.Truncate. If the file already exists but is a hidden file, then an UnauthorizedAccessException Exception is going to be thrown.
+3. **Open:** It specifies that the operating system should open an existing file. The ability to open the file is dependent on the value specified by the System.IO.FileAccess Enumeration. A System.IO.FileNotFoundException exception is thrown if the file does not exist.
+4. **OpenOrCreate:** It specifies that the operating system should open a file if it exists; otherwise, a new file should be created. If the file is opened with FileAccess.Read, System.Security.Permissions.FileIOPermissionAccess.Read permission is required. If the file access is FileAccess.Write, System.Security.Permissions.FileIOPermissionAccess.Write permission is required. If the file is opened with FileAccess.ReadWrite, both Systems.Security.Permissions.FileIOPermissionAccess.Read and System.Security.Permissions.FileIOPermissionAccess.Write permissions are required.
+5. **Truncate:** It specifies that the operating system should open an existing file. When the file is opened, it should be truncated so that its size is zero bytes. This requires a System.Security.Permissions.FileIOPermissionAccess.Write permission. Attempts to read from a file opened with FileMode.Truncate causes a System.ArgumentException exception.
+6. **Append:** It opens the file if it exists and then adds the content at the end of the file, or creates a new file. This requires a System.Security.Permissions.FileIOPermissionAccess.Append permission. FileMode.Append can be used only in conjunction with FileAccess.Write. Trying to seek a position before the end of the file throws a System.IO.IOException exception, and any attempt to read fails and throws a System.NotSupportedException exception.
 
 ## FileAccess in C#:
 It permits file for read, write, or read/write access. If you go to the definition of FileAccess, then you will see that it is an Enum with the following structure.
 
 ![PIC](https://dotnettutorials.net/wp-content/uploads/2022/05/word-image-88.png)
 
-It has the following three constant values:
-	1. **Read** – It gives read access to the file. Data can be read from the file. Combine with Write for read/write access.
-	2. **Write** – It gives Write access to the file. Data can be written to the file. Combine with Read for read/write access.
-	3. **ReadWrite** – It gives read and writes access to the file. Data can be written to and read from the file.
+It has the following three constant values.
+1. **Read** – It gives read access to the file. Data can be read from the file. Combine with Write for read/write access.
+2. **Write** – It gives Write access to the file. Data can be written to the file. Combine with Read for read/write access.
+3. **ReadWrite** – It gives read and writes access to the file. Data can be written to and read from the file.
 
 ## FileShare in C#:
 It contains constants for controlling the kind of access other FileStream objects can have to the same file. For example, if one file is accessed by one FileStream object and a second FileStream object wants to access the file then what will happen? That means it opens a file with share permission. If you go to the definition of FileShare, you will see that it is an Enum with the following structure.
@@ -96,18 +96,18 @@ It contains constants for controlling the kind of access other FileStream object
 ![PIC](https://dotnettutorials.net/wp-content/uploads/2022/05/word-image-89.png)
 
 It has the following six constant values:
-	1. **None:** Declines sharing of the current file. Any request to open the file (by this process or another process) will fail until the file is closed.
-	2. **Read:** Allows subsequent opening of the file for reading. If this flag is not specified, any request to open the file for reading (by this process or another process) will fail until the file is closed. However, even if this flag is specified, additional permissions might still be needed to access the file.
-	3. **Write:** Allows subsequent opening of the file for writing. If this flag is not specified, any request to open the file for writing (by this process or another process) will fail until the file is closed. However, even if this flag is specified, additional permissions might still be needed to access the file.
-	4. **ReadWrite:** Allows subsequent opening of the file for reading or writing. If this flag is not specified, any request to open the file for reading or writing (by this process or another process) will fail until the file is closed. However, even if this flag is specified, additional permissions might still be needed to access the file.
-	5. **Delete:** Allows subsequent deleting of a file.
-	6. **Inheritable:** Makes the file handle inheritable by child processes. This is not directly supported by Win32.
+1. **None:** Declines sharing of the current file. Any request to open the file (by this process or another process) will fail until the file is closed.
+2. **Read:** Allows subsequent opening of the file for reading. If this flag is not specified, any request to open the file for reading (by this process or another process) will fail until the file is closed. However, even if this flag is specified, additional permissions might still be needed to access the file.
+3. **Write:** Allows subsequent opening of the file for writing. If this flag is not specified, any request to open the file for writing (by this process or another process) will fail until the file is closed. However, even if this flag is specified, additional permissions might still be needed to access the file.
+4. **ReadWrite:** Allows subsequent opening of the file for reading or writing. If this flag is not specified, any request to open the file for reading or writing (by this process or another process) will fail until the file is closed. However, even if this flag is specified, additional permissions might still be needed to access the file.
+5. **Delete:** Allows subsequent deleting of a file.
+6. **Inheritable:** Makes the file handle inheritable by child processes. This is not directly supported by Win32.
 
 -----
 ## Example to Understand FileStream class in C#:
 Let us understand how to perform Read and Write Operations on a File using FileStream Class in C# with Examples. In the below example, we will create a new file called **“MyFile.txt”** and saves it on the Disk. And then we will open this file, saves some text in it, and then close this file.
 
-## File Creation Example using FileSteam Class in C#:
+## File Creation Example using FileStream Class in C#:
 In the below example, we have done three things. First, we set the File Path where we want to create the File. Second, we create an instance of the FileStream class by specifying the File Path and File Mode as Create as we are going to create a New File. Finally, we have close the FileStream Object. In this example, the FileStream Object is going to create a new **MyFile.txt** file in the D drive. The following example code is self-explained, so please go through the comment lines for a better understanding.
 
 ```CS
@@ -135,6 +135,7 @@ namespace FileHandlinDemo
 }
 ```
 When you run the above code, you will get the following output:
+
 ![PIC](https://dotnettutorials.net/wp-content/uploads/2022/05/word-image-90.png)
 
 -----
