@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "z6191q185rqXWMJ07A7NA8MhXTWOv8KtmX996ZT/ncTjUKUwnijWctSWS/xSAXpQAJ7zX3LSwnjd+aowFC7WvA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Minenhle\\Music\\Projects\\Road_to_CSharp_Mastery\\DotNetChallenge\\2. Create-a-web-API-with-ASP.NET-Core-controllers\\ContosoPizza\\ContosoPizza.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Minenhle\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Minenhle\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Minenhle\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Minenhle\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Minenhle\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Minenhle\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
