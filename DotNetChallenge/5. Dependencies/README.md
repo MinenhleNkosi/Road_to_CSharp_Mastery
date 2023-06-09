@@ -10,6 +10,6 @@ After you complete this module, you'll be able to:
 * Manage your package dependencies and update them in a predictable way.
 
 ## Prerequisites.
-* Local installations of the [].NET](https://dotnet.microsoft.com/download) SDK and Visual Studio Code.
+* Local installations of the [.NET](https://dotnet.microsoft.com/download) SDK and Visual Studio Code.
 * [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) for Visual Studio Code.
 * Experience with using the command line.
