@@ -1,0 +1,16 @@
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\bin\Debug\net5.0\Defining.exe
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\bin\Debug\net5.0\Defining.deps.json
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\bin\Debug\net5.0\Defining.runtimeconfig.json
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\bin\Debug\net5.0\Defining.runtimeconfig.dev.json
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\bin\Debug\net5.0\Defining.dll
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\bin\Debug\net5.0\Defining.pdb
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\obj\Debug\net5.0\Defining.csproj.AssemblyReference.cache
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\obj\Debug\net5.0\Defining.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\obj\Debug\net5.0\Defining.AssemblyInfoInputs.cache
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\obj\Debug\net5.0\Defining.AssemblyInfo.cs
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\obj\Debug\net5.0\Defining.csproj.CoreCompileInputs.cache
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\obj\Debug\net5.0\Defining.dll
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\obj\Debug\net5.0\refint\Defining.dll
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\obj\Debug\net5.0\Defining.pdb
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\obj\Debug\net5.0\Defining.genruntimeconfig.cache
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\Defining\obj\Debug\net5.0\ref\Defining.dll

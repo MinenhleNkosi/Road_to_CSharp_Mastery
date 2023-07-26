@@ -7,7 +7,7 @@ namespace Modifiers
     {
         // TODO: "public" members and methods can be accessed by any other code
         // Note: this is *NOT* the right way to expose internal data
-        string _name;
+        public string _name;
 
         // TODO: "protected" members can only be accessed by the class or a 
         // derived class from this one
@@ -28,6 +28,9 @@ namespace Modifiers
         }
 
         // TODO: Member variables can be accessed via methods
-
+        public string GetMembers(string name, string author, int count)
+        {
+            return $"Incwadi ebhalwe ngu {name}, igama lencwadi lithi {author} futhi ezikhona u {count}";
+        }
     }
 }

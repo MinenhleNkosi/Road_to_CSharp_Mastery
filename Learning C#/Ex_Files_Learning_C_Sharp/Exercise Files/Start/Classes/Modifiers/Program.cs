@@ -15,7 +15,7 @@ namespace Modifiers
             Console.WriteLine(b1.GetDescription());
 
             // TODO: set data using functions instead of accessing fields directly
-
+            Console.WriteLine(b1.GetMembers("\n" + "scelo", "sketch", 4));
         }
     }
 }

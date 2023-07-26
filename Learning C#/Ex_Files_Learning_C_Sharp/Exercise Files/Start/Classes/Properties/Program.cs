@@ -10,8 +10,10 @@ namespace Properties
             Book b1 = new Book("War and Peace", "Leo Tolstoy", 825);
 
             // Access a couple of properties
-            Console.WriteLine(b1.Name);
-            Console.WriteLine(b1.Description);
+            Console.WriteLine(b1.GetAuthor("Jetro"));
+            Console.WriteLine(b1.GetName("Incwadiiii"));
+            Console.WriteLine(b1.GetTheCount(56));
+            Console.WriteLine(b1.author);
 
             // Set the ISBN and Price properties
             b1.ISBN = "100140447938";
@@ -20,11 +22,11 @@ namespace Properties
             Console.WriteLine(b1.Price);
 
             // Change the Name and Pagecount
-            b1.Name = "Crime and Punishment";
-            b1.Pagecount = 652;
-            Console.WriteLine(b1.Description);
-            Console.WriteLine(b1.Name);
-            Console.WriteLine(b1.Pagecount);
+            b1.name = "Crime and Punishment";
+            b1.pageCount = 652;
+            Console.WriteLine(b1.author);
+            Console.WriteLine(b1.name);
+            Console.WriteLine(b1.pageCount);
         }
     }
 }

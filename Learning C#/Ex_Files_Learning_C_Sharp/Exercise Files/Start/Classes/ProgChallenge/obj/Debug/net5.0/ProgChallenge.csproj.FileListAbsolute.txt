@@ -1,0 +1,16 @@
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\bin\Debug\net5.0\ProgChallenge.exe
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\bin\Debug\net5.0\ProgChallenge.deps.json
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\bin\Debug\net5.0\ProgChallenge.runtimeconfig.json
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\bin\Debug\net5.0\ProgChallenge.runtimeconfig.dev.json
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\bin\Debug\net5.0\ProgChallenge.dll
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\bin\Debug\net5.0\ProgChallenge.pdb
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\obj\Debug\net5.0\ProgChallenge.csproj.AssemblyReference.cache
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\obj\Debug\net5.0\ProgChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\obj\Debug\net5.0\ProgChallenge.AssemblyInfoInputs.cache
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\obj\Debug\net5.0\ProgChallenge.AssemblyInfo.cs
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\obj\Debug\net5.0\ProgChallenge.csproj.CoreCompileInputs.cache
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\obj\Debug\net5.0\ProgChallenge.dll
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\obj\Debug\net5.0\refint\ProgChallenge.dll
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\obj\Debug\net5.0\ProgChallenge.pdb
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\obj\Debug\net5.0\ProgChallenge.genruntimeconfig.cache
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\ProgChallenge\obj\Debug\net5.0\ref\ProgChallenge.dll

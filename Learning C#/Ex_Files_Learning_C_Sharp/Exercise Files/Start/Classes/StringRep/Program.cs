@@ -6,17 +6,22 @@ namespace StringRep
     {
         static void Main(string[] args)
         {
-            // TODO: Every class in C# inherits from Object, which means
-            // that every class inherits the ToString() method
-
+            // TODO: Every class in C# inherits from Object, which means.
+            // that every class inherits the ToString() method.
+            Book incwadi = new Book("jetro", "cuba", 103);
+            Console.WriteLine(incwadi.ToString());
+            Console.WriteLine(incwadi.ToString('J'));
 
             // TODO: if you don't override the method, the default behavior just prints
-            // the name of the class and the namespace
+            // the name of the class and the namespace.
 
 
-            // TODO: use the ToString method on the Book class
+            // TODO: use the ToString method on the Book class.
             Book b1 = new Book("War and Peace", "Leo Tolstoy", 825);
-            
+            Console.WriteLine(b1.ToString());
+            Console.WriteLine(b1.ToString('s'));
+            Console.WriteLine(b1.Author);
+            Console.WriteLine(b1.PageCount);
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "EVmIg4QhuRoYJE94YJoJqBcY+6kbpuhMvreW+yhWs9Bd+gVJyFf3wgcL3yIK3XhU3zfUZ9i4LJSUgkYyl8psLA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Minenhle\\Music\\Projects\\Road_to_CSharp_Mastery\\Learning C#\\Ex_Files_Learning_C_Sharp\\Exercise Files\\Start\\Classes\\Properties\\Properties.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Minenhle\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Minenhle\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Minenhle\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Minenhle\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Minenhle\\Music\\Projects\\Learning C#\\Ex_Files_Learning_C_Sharp\\MyCSharpWay\\Practice\\Classes\\Defining\\Defining.csproj",
+      "projectUniqueName": "C:\\Users\\Minenhle\\Music\\Projects\\Road_to_CSharp_Mastery\\Learning C#\\Ex_Files_Learning_C_Sharp\\MyCSharpWay\\Practice\\Classes\\Defining\\Defining.csproj",
       "projectName": "Defining",
-      "projectPath": "C:\\Users\\Minenhle\\Music\\Projects\\Learning C#\\Ex_Files_Learning_C_Sharp\\MyCSharpWay\\Practice\\Classes\\Defining\\Defining.csproj",
+      "projectPath": "C:\\Users\\Minenhle\\Music\\Projects\\Road_to_CSharp_Mastery\\Learning C#\\Ex_Files_Learning_C_Sharp\\MyCSharpWay\\Practice\\Classes\\Defining\\Defining.csproj",
       "packagesPath": "C:\\Users\\Minenhle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Minenhle\\Music\\Projects\\Learning C#\\Ex_Files_Learning_C_Sharp\\MyCSharpWay\\Practice\\Classes\\Defining\\obj\\",
+      "outputPath": "C:\\Users\\Minenhle\\Music\\Projects\\Road_to_CSharp_Mastery\\Learning C#\\Ex_Files_Learning_C_Sharp\\MyCSharpWay\\Practice\\Classes\\Defining\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Minenhle\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

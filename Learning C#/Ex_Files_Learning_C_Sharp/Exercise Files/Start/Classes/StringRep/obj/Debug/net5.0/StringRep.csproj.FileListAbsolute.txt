@@ -1,0 +1,16 @@
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\bin\Debug\net5.0\StringRep.exe
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\bin\Debug\net5.0\StringRep.deps.json
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\bin\Debug\net5.0\StringRep.runtimeconfig.json
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\bin\Debug\net5.0\StringRep.runtimeconfig.dev.json
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\bin\Debug\net5.0\StringRep.dll
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\bin\Debug\net5.0\StringRep.pdb
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\obj\Debug\net5.0\StringRep.csproj.AssemblyReference.cache
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\obj\Debug\net5.0\StringRep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\obj\Debug\net5.0\StringRep.AssemblyInfoInputs.cache
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\obj\Debug\net5.0\StringRep.AssemblyInfo.cs
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\obj\Debug\net5.0\StringRep.csproj.CoreCompileInputs.cache
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\obj\Debug\net5.0\StringRep.dll
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\obj\Debug\net5.0\refint\StringRep.dll
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\obj\Debug\net5.0\StringRep.pdb
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\obj\Debug\net5.0\StringRep.genruntimeconfig.cache
+C:\Users\Minenhle\Music\Projects\Road_to_CSharp_Mastery\Learning C#\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Classes\StringRep\obj\Debug\net5.0\ref\StringRep.dll
